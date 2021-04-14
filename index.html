@@ -49,33 +49,30 @@
                 <img src="images/text.png" alt="" class="img-text">
             </div>
         </div>
-
-
+        
     </div>
-    
-
 
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
-
-    $(document).ready(function(){
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
     
-        $('.fa-bars').click(function(){
-            $(this).toggleClass('fa-times');
-            $('nav').toggleClass('nav-toggle');
-        });
-    
-        $('nav ul li a').click(function(){
-            $('.fa-hamburger').removeClass('fa-times');
-            $('nav').removeClass('nav-toggle');
-        });
-    
+        $(document).ready(function(){
         
-    
-    });
-    
-</script>
-</body>
+            $('.fa-bars').click(function(){
+                $(this).toggleClass('fa-times');
+                $('nav').toggleClass('nav-toggle');
+            });
+        
+            $('nav ul li a').click(function(){
+                $('.fa-hamburger').removeClass('fa-times');
+                $('nav').removeClass('nav-toggle');
+            });
+        
+            
+        
+        });
+        
+    </script>
+    </body>
 </html>
