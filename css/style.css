@@ -186,15 +186,18 @@ li{
 }
 
 .social-li{
+   
     margin: .5rem;
     padding: 1rem;
-    background-color: rgba(4, 6, 37,0.5);
+    background-color: rgba(255, 255, 255, 0.25);
     border-radius: 75%;
     font-size: 15px;
     text-align: center;
     
 
 }
+
+
 .social-li:hover{
     
     transform: scale(1.1);
@@ -202,8 +205,24 @@ li{
 }
 
 .social-a{
-    color: white;
+    color: rgb(255, 255, 255);
     
+}
+.social-a:hover{
+    color: rgb(15, 137, 185);
+    
+}
+.social-a-yt:hover{
+    color: rgb(255, 0, 0);   
+}
+.social-a-yt{
+    color: rgb(255, 255, 255);  
+}
+.social-a-inst:hover{
+    color: rgb(255, 0, 255);   
+}
+.social-a-inst{
+    color: rgb(255, 255, 255);  
 }
 
 
