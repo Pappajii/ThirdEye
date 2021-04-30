@@ -86,7 +86,7 @@ li{
     width: 100%;
     position: absolute;
     top: 220px;
-    padding-right: 10vw;
+    padding-right: 20VW;
     display: flex;
     justify-content: flex-end;
     z-index: 5;
