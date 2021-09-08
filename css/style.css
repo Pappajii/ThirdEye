@@ -307,7 +307,7 @@ margin: 10px 20px;
     color: #474747;
 }
 .game{
-    padding-top: 10px;
+    /* padding-top: 10px; */
     color: white;
     font-size: 1vw;
     font-weight: 600;
@@ -415,7 +415,7 @@ margin: 10px 20px;
 
 .section-4{
     position: relative;
-    top: 0px;
+    top:30px;
     /* background-color: aqua; */
     margin: 7vw;
 }
@@ -466,6 +466,8 @@ margin: 10px 20px;
     background-color: #4361ce;
     color: white;
     padding-top: 3vw;
+    position: relative;
+    top: 55px;
 }
 
 .footer-sub-heading{
@@ -493,20 +495,28 @@ label, .get-touch, .contact{
     margin-bottom: 4vw;
     padding-left: 10vw;
     padding-right: 10vw;
-    justify-content: space-around;
+    justify-content: center;
 }
 .contact-form{
     text-align: center;
     /* background-color: rgb(94, 7, 105); */
+    width: 15vw;
+    margin: 0 10vw;
+}
+.social-media{
+    text-align: center;
+    /* background-color: aqua; */
+    width: 15vw;
+}
+.message-form{
+    /* background-color: red; */
+    width: 15vw;
 }
 
 .mail{
     color: white;
 }
-.social-media{
-    text-align: center;
-    /* background-color: aqua; */
-}
+
 .social{
     color: white;
     font-size: 1vw;
@@ -518,6 +528,7 @@ label, .get-touch, .contact{
     padding: 1vw 2vw;
     color: white;
     margin: 10px 0;
+    width: 10vw;
 }
 .message-input{
     background-color: #4361ce;
@@ -526,9 +537,16 @@ label, .get-touch, .contact{
     padding: 1vw 2vw;
     color: white;
     margin: 10px 0;
+    width: 10vw;
+
     
 }
-::placeholder {
+.input-f::placeholder {
+    color: white;
+    font-size: 1vw;
+  }
+
+  .message-input::placeholder {
     color: white;
     font-size: 1vw;
   }
@@ -550,6 +568,12 @@ color: white;
 text-align: center;
 font-size: .7vw;
 }
+
+.social-icon{
+    display: none;
+    
+}
+
 
 /* ------------footer---------------- */
 
@@ -976,15 +1000,40 @@ label, .contact, .get-touch{
     color: white;
     font-size: 1.5vw;
   }
-  .contact-form, .social-media{
-      margin-top: 10vw;
-  }
+  .contact-form {
+      margin-top: 2vw;}
+  
   .social{
       font-size: 2vw;
   }
   .copyright-section{
     font-size: 2vw;
   }
+  .social-icon{
+      display: block;
+      color: white;
+      margin-left: 2vw;
+      font-size: 4vw;
+  }
+  .social-media-icon{
+      margin-top: 2vw;
+      display: flex;
+      justify-content: center;
+  }
+  .social-media{
+      display: none;
+  }
+
+  .contact-form{
+    
+    width: 80vw;
+    margin: 1vw 0;
+}
+
+.message-form{
+    /* background-color: red; */
+    width: 80vw;
+}
 
 
 
