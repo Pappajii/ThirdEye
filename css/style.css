@@ -2,9 +2,17 @@
     margin: 0;
     padding: 0;
     
+       
+    
+     
     scroll-behavior: smooth;
 }
+
+a{
+    cursor: pointer !important;
+}
 body{
+    
     position: relative;
     top: 0;
     font-family: 'Poppins', sans-serif;
@@ -174,6 +182,7 @@ margin: 10px 20px;
     top: 0;
     left: -5vw;
     opacity: 0.3;
+    pointer-events: none;
 }
 .mesh_squre_horizontal_1{
     width: 6vw;
@@ -367,6 +376,7 @@ margin: 10px 20px;
     width: 25vw;
     opacity: 0.3;
     z-index: -1;
+    pointer-events: none;
 }
 
 
